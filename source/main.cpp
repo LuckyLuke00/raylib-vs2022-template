@@ -1,3 +1,7 @@
+#ifndef NDEBUG
+#include <vld.h> // Visual Leak Detector, only in debug mode
+#endif
+
 #include "raylib.h"
 
 int main(void)
